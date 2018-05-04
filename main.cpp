@@ -9,6 +9,7 @@ sem_t tobacco, matches, papers;
 int main()
 {
 	sem_init(&agent, 0, 1);
+	sem_init(&mutex, 0, 1);
 	sem_init(&tobacco, 0, 0);
 	sem_init(&matches, 0, 0);
 	sem_init(&papers, 0, 0);

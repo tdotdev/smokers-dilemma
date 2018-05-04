@@ -8,18 +8,18 @@
 
 struct Table
 {
-	Table() 
-		: tobacco(false)
-		, matches(false)
-		, papers(false) 
-	{}
+   Table() 
+      : tobacco(false)
+      , matches(false)
+      , papers(false) 
+   {}
 
-	bool tobacco;
-	bool matches;
-	bool papers;
+   bool tobacco;
+   bool matches;
+   bool papers;
 };
 
-extern Table table;	
+extern Table table;  
 extern sem_t agent, mutex;
 extern sem_t tobacco, matches, papers;
 
