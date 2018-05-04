@@ -17,6 +17,8 @@ threads.hpp
 /mnt/c/Users/snyde/wsl/snyder_project-y/threads.hpp
 iostream
 -
+cstring
+-
 pthread.h
 -
 semaphore.h
