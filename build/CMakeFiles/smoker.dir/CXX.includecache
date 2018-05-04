@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/snyde/wsl/snyder_project-y/main.cpp
+threads.hpp
+/mnt/c/Users/snyde/wsl/snyder_project-y/threads.hpp
+
+/mnt/c/Users/snyde/wsl/snyder_project-y/threads.cpp
+threads.hpp
+/mnt/c/Users/snyde/wsl/snyder_project-y/threads.hpp
+
+/mnt/c/Users/snyde/wsl/snyder_project-y/threads.hpp
+iostream
+-
+pthread.h
+-
+semaphore.h
+-
+unistd.h
+-
+

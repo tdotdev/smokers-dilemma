@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11   CMakeFiles/smoker.dir/threads.cpp.o CMakeFiles/smoker.dir/main.cpp.o  -o smoker -rdynamic -lpthread 
