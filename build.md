@@ -1,6 +1,9 @@
 # Build instructions
 
-$ cd build
-$ cmake ..
-$ make
-$ ./smoker
+>$ cd build
+
+>$ cmake ..
+
+>$ make
+
+>$ ./smoker
